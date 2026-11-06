@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 
 	// 	//simple iteration over a range
@@ -17,13 +15,13 @@ func main() {
 
 	// }
 
-	for i := 1; i <= 10; i++ {
-		// if i%2 == 0 {
-		// 	continue
-		// }
-		fmt.Println("Odd Number:", i)
-		if i == 5 {
-			break
-		}
-	}
+	// for i := 1; i <= 10; i++ {
+	// 	if i%2 == 0 {
+	// 		continue //continue the loop but skip the rest of the lines/statements
+	// 	}
+	// 	fmt.Println("Odd Number:", i)
+	// 	if i == 5 {
+	// 		break // break out of the loop
+	// 	}
+	// }
 }
