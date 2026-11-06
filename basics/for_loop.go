@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 
 	// 	//simple iteration over a range
@@ -24,4 +26,27 @@ func main() {
 	// 		break // break out of the loop
 	// 	}
 	// }
+	//ASTERISK LAYOUT
+	// rows := 5
+
+	// //Outer loop
+	// for i := 1; i <= rows; i++ {
+	// 	//inner loop for spaces before stars
+	// 	for j := 1; j <= rows-i; j++ {
+	// 		fmt.Print("  ")
+	// 	}
+	// 	//inner loop for stars
+	// 	for k := 1; k <= 2*i-1; k++ {
+	// 		fmt.Print(" * ")
+	// 	}
+	// 	fmt.Println() //move to the next line
+
+	// }
+	for i := range 10 {
+		i++
+		fmt.Println(i)
+
+	}
+	fmt.Println("We have a lift off!")
+
 }
